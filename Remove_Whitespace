@@ -14,11 +14,11 @@ class Remove_Whitespace
 		int n;
 		Scanner in=new Scanner(System.in);
 		System.out.print("Enter the String:");   // Enter the string here
-		str=in.next();
-    
-    
-    whitespace=str.replaceAll(" ","");    // replacing the whitespace to null char
-    System.out.println(str);
+		str=in.nextLine();
+		n=str.length();
+		 
+               whitespace=str.replaceAll(" ","");    // replacing the whitespace to null char
+               System.out.println(whitespace);
 
 	}
 }
