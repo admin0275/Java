@@ -1,0 +1,24 @@
+/*
+*Remove Whitespace
+*
+* @author Manivannan
+*
+*/
+
+import java.io.*;
+import java.util.*;
+class Remove_Whitespace
+{
+	public static void main(String[] args) {
+		String str,whitespace;
+		int n;
+		Scanner in=new Scanner(System.in);
+		System.out.print("Enter the String:");   // Enter the string here
+		str=in.next();
+    
+    
+    whitespace=str.replaceAll(" ","");    // replacing the whitespace to null char
+    System.out.println(str);
+
+	}
+}
